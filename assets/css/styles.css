@@ -1,0 +1,171 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Campton Bold';
+}
+header{
+    height: 10vh;
+}
+.btn{
+    font-family: 'Campton Medium';
+}
+label{
+    font-family: 'Campton Medium';
+    margin-bottom: 0.05rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.text-def,.text-blue{
+  color: #003366;
+}
+.text-link{
+  font-family: 'Campton Medium';
+}
+body{
+  font-family: 'Campton Light';
+}
+a, a:hover, a:active{
+  text-decoration: none;
+  font-family: 'Campton Light';
+  color: #003366;
+}
+strong, .text-bold{
+  font-family: 'Campton Bold';
+}
+.text-sm{
+  font-size: 12px;
+}
+.brd-left{
+  border-left: 1px solid #707070;
+}
+.pl-5-5{
+  padding-left: 3.5rem !important;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+ul li{
+  list-style: none;
+}
+.btn-primary:hover,.btn-primary{
+    color: #fff;
+    background-color: #003366;
+    border-color: #003366;
+}
+.shadow{
+  box-shadow: 0px 5px 10px #7070700F;
+}
+
+/* Login Css */
+.body-wrapper{
+    height: 90vh;
+    background-image: url('../img/bg/Login_BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login_card{
+    width: 30rem;
+    padding: 4rem;
+    border-radius: 10px;
+}
+.login_card h4{
+    color: #003366;
+}
+.custom-input{
+    width: 100%;
+    border: solid 1px #707070;
+    padding: 2.5vh 20px;
+    position: relative;
+}
+.custom-input.disabled {
+    background: rgb(235, 235, 235);
+  }
+  .custom-input:focus-within {
+    border-left: 5px solid #003366;
+  }
+  .cust-field, .cust-field-2, .date-input{
+    border: none;
+  }
+  .cust-field:focus, .cust-field-2, .date-input{
+    outline: none !important;
+  }
+
+  .btn-glb, .btn-glb:hover{
+    color: #fff;
+    background-color:#FF0032;
+    border-radius: 3px;
+  }
+  .show-txt{
+    color: #003366;
+    font-family: 'Campton Bold';
+  }
+.forgot-text{
+    border-bottom: 1px dashed #003366;
+    color: #003366 !important;
+}
+
+/***Header CSS ***/
+.head img{
+    width: 250px;
+}
+.sidebar-wrapper{
+    background:url('../img/bg/bg-side.png');
+    height: 100vh;
+}
+.bar-item a{
+    color: #fff;
+}
+.sidebar .active{
+      background-color: #003366;
+}
+.active a{
+    font-family: 'Campton Bold' !important;
+}
+.border-black{
+    border-radius: 10px;
+    background-color: rgba(0, 51, 102, 0.5);
+}
+
+/***Dashboard **/
+.filter_box .form-control{
+    border: none !important;
+    outline: none;
+}
+.filter_box{
+    background-color: #fff;
+}
+.filter_box .form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+.rounded-1{
+    border-radius: 10px;
+}
+.tics_bar{
+    background-color: #F2F8FF;
+}
+.blue-bg{
+  background-image: url('../img/bg/bg-side.png');
+}
+
+/**Users**/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #003366;
+  box-shadow: 0px 3px 6px #0000007A;
+  border-radius: 19px;
+  background-color: #fff;
+  font-family: "Campton Book";
+}
+.nav-link{
+  color: #DCECFF;
+}
+#user-filter label{
+  font-size: 14px;
+}
+.table td, .table th {
+  border-top: none;
+}
