@@ -104,6 +104,9 @@ ul li{
     border-bottom: 1px dashed #003366;
     color: #003366 !important;
 }
+.btn-md{
+  width: 120px;
+}
 
 /***Header CSS ***/
 .head img{
@@ -159,6 +162,8 @@ ul li{
   border-radius: 19px;
   background-color: #fff;
   font-family: "Campton Book";
+  min-width: 120px;
+  text-align: center;
 }
 .nav-link{
   color: #DCECFF;
